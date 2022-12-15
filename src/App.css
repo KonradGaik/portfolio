@@ -1,3 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*{
+  -webkit-touch-callout: none; /* iOS Safari                           */
+  -webkit-user-select: none; /* Safari                               */
+   -khtml-user-select: none; /* Konqueror HTML                       */
+     -moz-user-select: none; /* Firefox w przeszłości (stare wersje) */
+      -ms-user-select: none; /* Internet Explorer (>=10) / Edge      */
+          user-select: none; /* Aktualnie wspierane przez:   */
+          /* color: #3A3B3C; */
+          /* color:whitesmoke; */
+}
+
 .App {
   text-align: center;
 }
