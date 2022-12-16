@@ -24,7 +24,7 @@ import CV from '../../files/KONRAD_GAIK_CV.pdf'
                <b className='text-xl'> Jestem ambitnym i dynamicznym młodym programistą, który jest zawsze gotowy na nowe wyzwania i chętnie uczy się nowych technologii.</b>
 
                 </div>
-                <a href={CV} target="_blank" rel="noreferrer" className='w-[125px] h-[50px] bg-[#edf6f9] i-cv text-black border-3xl mx-auto hover:text-green-200 hover:bg-black transition duration-1000 ease-in-out'>Résumé</a>
+                <a href={CV} download className='w-[125px] h-[50px] bg-[#edf6f9] i-cv text-black border-3xl mx-auto hover:text-green-200 hover:bg-black transition duration-1000 ease-in-out'>Résumé</a>
             </div>
         </div>
 

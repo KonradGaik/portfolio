@@ -12,6 +12,7 @@ import { ToastContainer, toast } from 'react-toastify';
 const Contact = () => {
 
     const formRef = useRef()
+    console.log(process.env.REACT_APP_SERVICE_ID)
 
     const handleSubmit = e => {
         e.preventDefault()
@@ -19,7 +20,7 @@ if( formRef.current.user_name.value  &&
     formRef.current.user_email.value  && 
     formRef.current.user_subject.value  && 
     formRef.current.user_content.value){
-  emailjs.sendForm('service_xv58kl6', 'template_awwohqh', formRef.current, '9AEPDGUjBQoRMbypF')
+  emailjs.sendForm(process.env.REACT_APP_SERVICE_ID, process.env.REACT_APP_TEMPLATE_ID, formRef.current, process.env.REACT_APP_USER_ID)
         .then((result) => {
             console.log(result.text);
             toast.success('Wiadomość wysłana', {
