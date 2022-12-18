@@ -12,8 +12,6 @@ import { ToastContainer, toast } from 'react-toastify';
 const Contact = () => {
 
     const formRef = useRef()
-    console.log(process.env.REACT_APP_SERVICE_ID)
-
     const handleSubmit = e => {
         e.preventDefault()
 if( formRef.current.user_name.value  &&

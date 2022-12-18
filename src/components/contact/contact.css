@@ -89,7 +89,7 @@ button:hover{
     background-color: #83c5be
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 640px) {
     .c-wrapper{
         flex-direction: column;
         padding: 0;
@@ -128,4 +128,5 @@ button:hover{
     form{
         margin-top: 0!important;
     }
+    .c-right{display: none;}
 }

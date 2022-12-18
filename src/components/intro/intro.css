@@ -81,12 +81,44 @@
 
 .i-bg{
     clip-path: circle(56.0% at 64% 39%);
-    background-color: whitesmoke;
+    /* background-color: whitesmoke; */
+    background-color: #83c5be;
     width: 100%;
     height: 100%;
 }
 
-@media screen and (max-width: 480px) {
+.tech-bubble:nth-child(n){
+    animation: animateX 12s ease-in-out infinite;
+}
+
+.tech-bubble:nth-child(2n){
+    animation: animateY 8s ease-in-out infinite;
+}
+
+.tech-bubble:nth-child(3n){
+    animation: animateX 16s ease-in-out infinite;
+}
+
+@keyframes animateX{
+    0%,100%{
+        transform: translateY(-20px);
+    }
+    50%{
+        transform: translateY(20px);
+    }
+}
+
+@keyframes animateY{
+    0%,100%{
+        transform: translateX(-10px);
+    }
+    50%{
+        transform: translateX(10px);
+    }
+}
+
+
+@media screen and (max-width: 640px) {
     .i{
         flex-direction: column;
         height: fit-content;

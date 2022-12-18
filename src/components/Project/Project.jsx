@@ -11,7 +11,8 @@ const Project = props => {
         <div className="p-circle" style={{backgroundColor:'#FE5E57'}}></div>
         <div className="p-circle" style={{backgroundColor:'#FEBC2E'}}></div>
         <div className="p-circle" style={{backgroundColor:'#27c840'}}></div>
-        <div className='ml-3 text-white'><a href='http://github.com'>GitHub</a></div>
+        <div className='ml-2 text-white'>MERN</div>
+        <div className='ml-auto mr-2 text-white'><a href='http://github.com'>GitHub</a></div>
         {/* <div className='ml-3 text-white'><a href='http://github.com'>Demo</a></div> */}
       </div>
       <a href="http://anvende.com" rel="noreferrer" target="_blank">

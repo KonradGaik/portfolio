@@ -43,11 +43,11 @@ const ProjectsList = () => {
    <div className="pl">
     <div className="pl-texts">
         <b className="pl-title text-5xl text-black">
-        Projekty
+        Projects
         </b>
         <p className="pl-desc my-10 text-black">
             <ul className=''>
-                <li className='inline-block'>Wszystkie</li>
+                <li className='inline-block'>All</li>
                 <li className='inline-block'>Node.js</li>
                 <li className='inline-block'>Express.js</li>
                 <li className='inline-block'>MongoDB</li>
