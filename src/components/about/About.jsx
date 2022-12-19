@@ -11,7 +11,7 @@ const [nodeValue,setNodeValue] = useState(0)
 const [expressValue,setExpressValue] = useState(0)
 const [mongoValue,setMongoValue] = useState(0)
 const [phpValue,setPhpValue] = useState(0)
-const [laravelValue,setLaravelValue] = useState(0)
+const [reactValue,setReactValue] = useState(0)
 const [pythonValue,setPythonValue] = useState(0)
 
 
@@ -33,12 +33,12 @@ useEffect(() => {
   const currentTarget = targetRef.current;
   if(currentTarget){
     observer.observe(currentTarget)
-      setJsValue(75);
-      setNodeValue(65);
-      setExpressValue(65);
-      setMongoValue(65);
-      setPhpValue(50);
-      setLaravelValue(50);
+      setJsValue(65);
+      setNodeValue(55);
+      setExpressValue(55);
+      setMongoValue(55);
+      setPhpValue(40);
+      setReactValue(55);
       setPythonValue(20);
   }
 
@@ -50,7 +50,7 @@ useEffect(() => {
       setExpressValue(0);
       setMongoValue(0);
       setPhpValue(0);
-      setLaravelValue(0);
+      setReactValue(0);
       setPythonValue(0);
     }
   }
@@ -77,7 +77,7 @@ useEffect(() => {
             <h1 className="a-title text-white text-3xl">My skills  </h1>
                 <b className="a-sub text-white text-2xl">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem, eum.</b>
                 {/* <p className='a-desc text-white text-xl'>Lorem ipsum dolor sit amet consectetur adipisicing elit. At pariatur rerum repellat quod dicta perferendis, corrupti enim. Sequi natus laboriosam nostrum, cum numquam cumque architecto, esse iusto fugiat facilis animi? Libero eum eius sapiente at minima dolorum dolorem, earum recusandae voluptatum perspiciatis neque, culpa perferendis exercitationem voluptatibus, itaque excepturi officia.</p> */}
-<div className='w-[80%] mt-5 mx-auto' ref={targetRef}>
+<div className='w-[80%] my-5 mx-auto' ref={targetRef}>
 <div className='mb-3'>
 <div class=" m-0 text-white mr-auto">JavaScript</div>
 <div class="w-full h-4 bg-gray-800 rounded-full">
@@ -106,16 +106,16 @@ useEffect(() => {
 </div>
 
 <div className='mb-3'>
-<div class=" m-0 text-white mr-auto">PHP</div>
+<div class=" m-0 text-white mr-auto">React</div>
 <div class="w-full h-4 bg-gray-800 rounded-full">
-  <div class="progress h-4 bg-[#8892bf] rounded-full" style={{width: `${isVisible ? phpValue : 0}%`}}></div>
+  <div class="progress h-4 bg-blue-500 rounded-full" style={{width: `${isVisible ? reactValue : 0}%`}}></div>
 </div>
 </div>
 
 <div className='mb-3'>
-<div class=" m-0 text-white mr-auto">Laravel</div>
+<div class=" m-0 text-white mr-auto">PHP & Laravel</div>
 <div class="w-full h-4 bg-gray-800 rounded-full">
-  <div class="progress h-4 bg-[#F05340] rounded-full" style={{width: `${isVisible ? laravelValue : 0}%`}}></div>
+  <div class="progress h-4 bg-[#8892bf] rounded-full" style={{width: `${isVisible ? phpValue : 0}%`}}></div>
 </div>
 </div>
 

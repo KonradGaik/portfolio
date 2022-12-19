@@ -15,7 +15,7 @@ import py from '../../img/icons/python.svg'
             <div className="i-left-wrapper">
                 <h2 className='i-intro'>Cześć, nazywam się</h2>
                 <b className='i-name text-6xl'>Konrad Gaik</b>
-                <div className="i-title">
+                <div className="i-title my-5 md:my-0">
                     <div className="i-title-wrapper">
                         <div className="i-title-item text-4xl justify-center">Programmer</div>
                         <div className="i-title-item text-4xl justify-center">Web Developer</div>
@@ -25,10 +25,10 @@ import py from '../../img/icons/python.svg'
                         <div className="i-title-item text-4xl justify-center">Blogger</div>
                     </div>
                 </div>
-                <div className='i-desc'>
+                <div className='i-desc my-5 md:my-0'>
                <b className='text-xl'> Jestem ambitnym i dynamicznym młodym programistą, który jest zawsze gotowy na nowe wyzwania.</b>
                 </div>
-                <a href={CV} download className='w-[125px] h-[50px] bg-[#edf6f9] i-cv text-black border-3xl mx-auto hover:text-green-200 hover:bg-black transition duration-1000 ease-in-out'>Résumé</a>
+                <a href={CV} download className='w-[125px] h-[50px] bg-[#edf6f9] i-cv text-black border-3xl mx-auto hover:text-green-200 hover:bg-black mt-5 lg:mt-0 transition duration-1000 ease-in-out'>Résumé</a>
             </div>
         </div>
 
@@ -36,25 +36,25 @@ import py from '../../img/icons/python.svg'
             <div className="i-right-wrapper">
                 <div className="i-bg ">  
                
-                <div className='tech-bubble z-2000 bg-[#006d77] w-[15vw] h-[15vw] md:w-[10vw] md:h-[10vw] md:h-[5vw] lg:h-[5vw]  lg:w-[5vw] absolute top-[15%] shadow-2xl left-[15%] rounded-[50%]'>
+                <div className='tech-bubble z-2000 bg-[#006d77] w-[15vw] h-[15vw] md:w-[10vw] md:h-[10vw] lg:h-[5vw]  lg:w-[5vw] absolute top-[15%] shadow-2xl left-[15%] rounded-[50%]'>
                     <img src={react} draggable="false" alt="react logo" className='mx-auto p-1 w-100 h-100' />
                 </div>
-                <div className='tech-bubble z-2000 bg-[#006d77] w-[15vw] h-[15vw] md:w-[10vw] md:h-[10vw] md:h-[5vw] lg:h-[5vw]  lg:w-[5vw] absolute top-[35%] shadow-2xl left-[10%] rounded-[50%]'>
-                <img src={expressjs} draggable="false" alt="react logo" className='mx-auto p-1 w-100 h-100' />
+                <div className='tech-bubble z-2000 bg-[#006d77] w-[15vw] h-[15vw] md:w-[10vw] md:h-[10vw] lg:h-[5vw]  lg:w-[5vw] absolute top-[35%] shadow-2xl left-[10%] rounded-[50%]'>
+                <img src={py} draggable="false" alt="python logo" className='mx-auto p-3 w-100 h-100' />
                 </div>
-                <div className='tech-bubble z-2000 bg-[#006d77] w-[15vw] h-[15vw] md:w-[10vw] md:h-[10vw] md:h-[5vw] lg:h-[5vw]  lg:w-[5vw] absolute top-[20%] shadow-2xl right-[5%] rounded-[50%]'>
-                <img src={py} draggable="false" alt="react logo" className='mx-auto p-3 w-100 h-100' />
+                <div className='tech-bubble z-2000 bg-[#006d77] w-[15vw] h-[15vw] md:w-[10vw] md:h-[10vw] lg:h-[5vw]  lg:w-[5vw] absolute top-[20%] shadow-2xl right-[5%] rounded-[50%]'>
+                <img src={expressjs} draggable="false" alt="express logo" className='mx-auto p-1 w-100 h-100' />
                 </div>
-                <div className='tech-bubble z-2000 bg-[#006d77] w-[15vw] h-[15vw] md:w-[10vw] md:h-[10vw] md:h-[5vw] lg:h-[5vw]  lg:w-[5vw] absolute top-[40%] shadow-2xl right-[10%] rounded-[50%]'>
-                <img src={nodejs} draggable="false" alt="react logo" className='mx-auto p-1 w-100 h-100' />
+                <div className='tech-bubble z-2000 bg-[#006d77] w-[15vw] h-[15vw] md:w-[10vw] md:h-[10vw] lg:h-[5vw]  lg:w-[5vw] absolute top-[40%] shadow-2xl right-[10%] rounded-[50%]'>
+                <img src={nodejs} draggable="false" alt="node logo" className='mx-auto p-1 w-100 h-100' />
                 </div>
-                <div className='tech-bubble z-2000 bg-[#006d77] w-[15vw] h-[15vw] md:w-[10vw] md:h-[10vw] md:h-[5vw] lg:h-[5vw]  lg:w-[5vw] absolute top-[50%] shadow-2xl left-[25%] rounded-[50%]'>
-                <img src={laravel} draggable="false" alt="react logo" className='mx-auto p-2 w-100 h-100' />
+                <div className='tech-bubble z-2000 bg-[#006d77] w-[15vw] h-[15vw] md:w-[10vw] md:h-[10vw] lg:h-[5vw]  lg:w-[5vw] absolute top-[50%] shadow-2xl left-[25%] rounded-[50%]'>
+                <img src={laravel} draggable="false" alt="laravel logo" className='mx-auto p-2 w-100 h-100' />
                 </div>
-                <div className='tech-bubble z-2000 bg-[#006d77] w-[15vw] h-[15vw] md:w-[10vw] md:h-[10vw] md:h-[5vw] lg:h-[5vw]  lg:w-[5vw] absolute top-[5%] shadow-2xl right-[15%] rounded-[50%]'>
-                <img src={mongodb} draggable="false" alt="react logo" className='mx-auto p-1 w-100 h-100' />
+                <div className='tech-bubble z-2000 bg-[#006d77] w-[15vw] h-[15vw] md:w-[10vw] md:h-[10vw]  lg:h-[5vw]  lg:w-[5vw] absolute top-[5%] shadow-2xl right-[15%] rounded-[50%]'>
+                <img src={mongodb} draggable="false" alt="mongodb logo" className='mx-auto p-1 w-100 h-100' />
                 </div>
-                <img className='i-image bg-[#edf6f9] pt-5' src={photo1} alt="author" draggable="false"  />
+                <img className='i-image bg-[#edf6f9] pt-5' loading='lazy' src={photo1} alt="author" draggable="false"  />
 
                 </div>
             </div>

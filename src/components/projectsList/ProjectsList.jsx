@@ -45,7 +45,7 @@ const ProjectsList = () => {
         <b className="pl-title text-5xl text-black">
         Projects
         </b>
-        <p className="pl-desc my-10 text-black">
+        {/* <p className="pl-desc my-10 text-black">
             <ul className=''>
                 <li className='inline-block'>All</li>
                 <li className='inline-block'>Node.js</li>
@@ -55,7 +55,7 @@ const ProjectsList = () => {
                 <li className='inline-block'>React</li>
                 <li className='inline-block pl-[0.5rem]'>Python</li>
             </ul>
-        </p>
+        </p> */}
     </div>
     <div className="pl-list">
         {myProjects && myProjects.map((item) => {

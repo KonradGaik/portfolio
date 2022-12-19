@@ -12,8 +12,9 @@ function App() {
     <div className="App">
       <Language />
       <Intro />
-      <About />
       <ProjectsList />
+      <About />
+     
       {/* <Blog /> */}
       <Contact />
       {/* <Newsletter /> */}
